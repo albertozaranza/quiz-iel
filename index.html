@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz - IEL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="quiz-container" class="card">
+        <div class="progress-bar-track">
+          <div id="progress-bar" class="progress-bar-fill"></div>
+        </div>
+
+        <header class="quiz-header">
+          <p id="quiz-progress" class="progress-label"></p>
+          <h1 id="quiz-title"></h1>
+        </header>
+
+        <div id="question-container" class="question-text"></div>
+        <div id="options-container" class="options-list" role="list"></div>
+
+        <div class="actions">
+          <p id="message" class="message" aria-live="polite"></p>
+          <button id="next-btn" type="button">Próxima <span class="btn-arrow">→</span></button>
+        </div>
+      </section>
+
+      <section id="result-container" class="card result-card hidden" aria-live="polite">
+        <div class="trophy">🏆</div>
+        <h2>Resultado Final</h2>
+        <div id="score-percent" class="score-percent"></div>
+        <p id="score" class="score-detail"></p>
+        <button id="restart-btn" type="button">↺ &nbsp;Jogar novamente</button>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
