@@ -1,34 +1,114 @@
 {
-  "title": "Quiz Mockado - Conhecimentos Gerais",
+  "title": "Quiz de Língua Portuguesa e Literatura",
   "questions": [
     {
       "id": 1,
-      "question": "Qual e a capital do Brasil?",
-      "options": ["Sao Paulo", "Brasilia", "Rio de Janeiro", "Salvador"],
+      "question": "O que é crase?",
+      "options": [
+        "Repetição de palavras",
+        "Junção de duas vogais iguais",
+        "Formação de palavras",
+        "Separação de sílabas"
+      ],
       "answer": 1
     },
     {
       "id": 2,
-      "question": "Quanto e 2 + 2?",
-      "options": ["3", "4", "5", "6"],
+      "question": "O que faz a crítica literária?",
+      "options": [
+        "Cria poemas",
+        "Analisa obras literárias",
+        "Corrige ortografia",
+        "Traduz textos"
+      ],
       "answer": 1
     },
     {
       "id": 3,
-      "question": "Qual planeta e conhecido como Planeta Vermelho?",
-      "options": ["Venus", "Marte", "Jupiter", "Saturno"],
+      "question": "O que é derivação?",
+      "options": [
+        "Repetição de sons",
+        "Formação de palavras a partir de outras",
+        "Uso de rimas",
+        "Separação de vogais"
+      ],
       "answer": 1
     },
     {
       "id": 4,
-      "question": "Em que continente fica o Egito?",
-      "options": ["Europa", "Asia", "Africa", "America"],
-      "answer": 2
+      "question": "O que caracteriza a diácope?",
+      "options": [
+        "Separação de sílabas",
+        "Repetição de palavras com intervalo",
+        "Uso de metáforas",
+        "Mudança de tema"
+      ],
+      "answer": 1
     },
     {
       "id": 5,
-      "question": "Qual linguagem roda no navegador junto com HTML e CSS?",
-      "options": ["Python", "Java", "JavaScript", "C#"],
+      "question": "O que é diérese?",
+      "options": [
+        "União de vogais",
+        "Separação de vogais em sílabas diferentes",
+        "Repetição de palavras",
+        "Análise literária"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "O que é digressão?",
+      "options": [
+        "Repetição de sons",
+        "Mudança temporária do assunto principal",
+        "Formação de palavras",
+        "Uso de rimas"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "O que caracteriza o eco?",
+      "options": [
+        "Repetição de sons ou palavras",
+        "Separação de sílabas",
+        "Mudança de tema",
+        "Uso de pontuação"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "question": "O que é uma elegia?",
+      "options": [
+        "Poema alegre",
+        "Poema narrativo",
+        "Poema de lamento ou tristeza",
+        "Poema humorístico"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "question": "Quem foi Cecília Meireles?",
+      "options": [
+        "Cantora",
+        "Poeta brasileira",
+        "Pintora",
+        "Atriz"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "Sobre o que falam, geralmente, os poemas de Cecília Meireles?",
+      "options": [
+        "Apenas política",
+        "Apenas humor",
+        "Tempo, vida e sentimentos",
+        "Esportes"
+      ],
       "answer": 2
     }
   ]
