@@ -138,47 +138,15 @@ function resetQuiz() {
   renderQuestion();
 }
 
-const quizData = {
-  "title": "Quiz Mockado - Conhecimentos Gerais",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Qual e a capital do Brasil?",
-      "options": ["Sao Paulo", "Brasilia", "Rio de Janeiro", "Salvador"],
-      "answer": 1
-    },
-    {
-      "id": 2,
-      "question": "Quanto e 2 + 2?",
-      "options": ["3", "4", "5", "6"],
-      "answer": 1
-    },
-    {
-      "id": 3,
-      "question": "Qual planeta e conhecido como Planeta Vermelho?",
-      "options": ["Venus", "Marte", "Jupiter", "Saturno"],
-      "answer": 1
-    },
-    {
-      "id": 4,
-      "question": "Em que continente fica o Egito?",
-      "options": ["Europa", "Asia", "Africa", "America"],
-      "answer": 2
-    },
-    {
-      "id": 5,
-      "question": "Qual linguagem roda no navegador junto com HTML e CSS?",
-      "options": ["Python", "Java", "JavaScript", "C#"],
-      "answer": 2
-    }
-  ]
-};
-
 function loadQuiz() {
-  state.title = quizData.title;
-  state.questions = quizData.questions;
-  quizTitle.textContent = state.title;
-  renderQuestion();
+  fetch("quiz.json")
+    .then((res) => res.json())
+    .then((data) => {
+      state.title = data.title;
+      state.questions = data.questions;
+      quizTitle.textContent = state.title;
+      renderQuestion();
+    });
 }
 
 nextBtn.addEventListener("click", handleNextClick);
